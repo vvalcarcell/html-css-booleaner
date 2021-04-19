@@ -46,7 +46,7 @@ a {
   text-decoration: none;
 }
 
-.foto.description {
+.photo-description {
   font-size: 15px;
 }
 
@@ -54,3 +54,54 @@ p {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+.one {
+  background-color: rgb(65, 141, 228);
+  color: beige;
+  height: 25px;
+  font-weight: bold;
+}
+
+span {
+  display: inline-block;
+  width: 32%;
+}
+
+.two {
+  height: 70px;
+  background-color: rgb(162, 220, 240);
+}
+
+.three {
+  height: 70px;
+  background-color: rgb(216, 228, 233);
+}
+
+h4 {
+  color: dimgray;
+}
+
+.img1 {
+  background-image: url('../img/graph.jpg');
+}
+
+.img2 {
+  background-image: url('../img/monitor.jpg');
+}
+
+.img1, .img2 {
+  height: 200px;
+  width: 250px;
+  color: white;
+  background-position: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+
+
+
+
