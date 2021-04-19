@@ -1,0 +1,56 @@
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-image: url("../img/pattern.png");
+  background-size: 300px 200px;
+  background-color: cornflowerblue;
+  position: relative;
+}
+
+.logo {
+  height: 50px;
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+
+section {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.info {
+  color: gray;
+}
+
+.date {
+  font-size: 15px;
+}
+
+a {
+  color: royalblue;
+  text-decoration: none;
+}
+
+.foto.description {
+  font-size: 15px;
+}
+
+p {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
