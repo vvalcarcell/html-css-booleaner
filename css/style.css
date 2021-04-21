@@ -55,26 +55,28 @@ p {
   margin-bottom: 30px;
 }
 
-.one {
-  background-color: rgb(65, 141, 228);
-  color: beige;
-  height: 25px;
-  font-weight: bold;
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
 }
 
-span {
-  display: inline-block;
-  width: 32%;
+th { 
+  background: #6495ED;
+  width: 24%;
+  color: white;
 }
 
-.two {
-  height: 70px;
-  background-color: rgb(162, 220, 240);
+.last {
+  width: 48%;
 }
 
-.three {
-  height: 70px;
-  background-color: rgb(216, 228, 233);
+td {
+  background-color: #cce6ff;
+}
+
+.center td{
+  background-color:  #e6f2ff;
 }
 
 h4 {
