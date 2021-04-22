@@ -67,15 +67,15 @@ th {
   color: white;
 }
 
-.last {
+thead th:nth-child(3){
   width: 48%;
 }
 
-td {
+tr {
   background-color: #cce6ff;
 }
 
-.center td{
+tbody tr:nth-child(2){
   background-color:  #e6f2ff;
 }
 
